@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+</head>
+<body>
+
+<p>假设 y=5，计算 x=y+2，并显示结果。</p>
+<button onclick="myFunction()">点击这里</button>
+<p id="demo"></p>
+<script>
+function myFunction(){
+	var y=5;
+	var x=y+2;
+	var demoP=document.getElementById("demo");
+	demoP.innerHTML="x=" + x;
+}
+</script>
+
+<p>假设a=5，b=3，计算a+b，并显示结果。</p>
+<button onclick="addfunction()">点击这里</button>
+<p id="p1"></p>
+<script>
+	function addfunction(){
+		var a=5;
+		var b=3;
+		var resultP=document.getElementById("p1");
+		resultP.innerHTML="a+b=" + (a+b);
+	}
+</script>
+
+</body>
+</html>
