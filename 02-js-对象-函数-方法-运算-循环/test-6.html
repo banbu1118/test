@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test-6</title>
+</head>
+<body>
+    <p>时间转换为字符串</p>
+    <p id="kk" ></p>
+    <script>
+        // 从 Date 对象返回一个月中的某一天 (1 ~ 31)。
+        function getMonthDay(date) {
+            return date.getDate();
+        }
+
+        // document.getElementById("kk").innerHTML = getMonthDay(new Date());
+        document.getElementById("kk").innerHTML = String(new Date().getDate());
+
+    </script>
+</body>
+</html>
